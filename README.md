@@ -86,7 +86,7 @@ php artisan migrate
 php artisan serve
 ```
 
-As I have said this is One to One relationship. // Imagine part
+As I have said this is One to Many relationship. // Imagine part
 - Example1: A User can many posts
 - Example2: Student can have many Books
 - Example3: Office can have many employees
@@ -96,7 +96,7 @@ So I have just created Two model
 - **User**
 - **Post**
 
-User Model are relation with hasOne
+User Model are relation with hasMany
 
 ```sh
     public function posts()
