@@ -36,12 +36,12 @@ Go throw **laravel documentation** to read about it & many more blog
 First you need to clone this and save **.env.example as .env** and setup your environment or just change the database configure
 
 ```sh
-- DB_CONNECTION=mysql
-- DB_HOST=127.0.0.1
-- DB_PORT=3306
-- DB_DATABASE=your-database-name
-- DB_USERNAME=your-database-user-name
-- DB_PASSWORD=your-database-password(if have)
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your-database-name
+DB_USERNAME=your-database-user-name
+DB_PASSWORD=your-database-password(if have)
 ```
 
 Now just run some command on terminal one by one
